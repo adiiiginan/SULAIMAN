@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <base href="../../../" />
     <title>RSAU LANUD SULAIMAN</title>
@@ -10,6 +11,7 @@
     <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body id="kt_body" class="app-blank bgi-size-cover bgi-attachment-fixed bgi-position-center bgi-no-repeat">
     <script>
         // Atur tema
@@ -34,6 +36,7 @@
             body {
                 background-image: url('assets/media/auth/bg4.jpg');
             }
+
             [data-bs-theme="dark"] body {
                 background-image: url('assets/media/auth/bg4-dark.jpg');
             }
@@ -50,7 +53,8 @@
             </div>
 
             <!-- Form Login -->
-            <div class="d-flex flex-column-fluid flex-lg-row-auto justify-content-center justify-content-lg-end p-12 p-lg-20">
+            <div
+                class="d-flex flex-column-fluid flex-lg-row-auto justify-content-center justify-content-lg-end p-12 p-lg-20">
                 <div class="bg-body d-flex flex-column align-items-stretch flex-center rounded-4 w-md-600px p-20">
                     <div class="d-flex flex-center flex-column flex-column-fluid px-lg-10 pb-15 pb-lg-20">
                         <!-- Form -->
@@ -61,11 +65,13 @@
                             </div>
 
                             <div class="fv-row mb-8">
-                                <input type="text" placeholder="Email" name="email" autocomplete="off" class="form-control bg-transparent" />
+                                <input type="text" placeholder="Email" name="email" autocomplete="off"
+                                    class="form-control bg-transparent" />
                             </div>
 
                             <div class="fv-row mb-3">
-                                <input type="password" placeholder="Password" name="password" autocomplete="off" class="form-control bg-transparent" />
+                                <input type="password" placeholder="Password" name="password" autocomplete="off"
+                                    class="form-control bg-transparent" />
                             </div>
 
                             <div class="d-flex flex-stack flex-wrap gap-3 fs-base fw-semibold mb-8">
@@ -93,4 +99,5 @@
     <script src="assets/plugins/global/plugins.bundle.js"></script>
     <script src="assets/js/scripts.bundle.js"></script>
 </body>
+
 </html>
